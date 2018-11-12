@@ -275,6 +275,6 @@ def OModel(timeStamp,stationID):
 Input the timeStamp and station ID, then you will get predicted transitions including destination and duration
 '''
 time1 = time.time()
-predictedTransitions = OModel(1372410000,476)
+predictedTransitions = OModel(1372410000,476)# since I only use station 476 for testing, do no change station ID here
 time2 = time.time()
 print('Time used:',time2-time1,'s')
